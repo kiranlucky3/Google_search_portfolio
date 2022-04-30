@@ -41,12 +41,11 @@ const AccordionComponent = () => {
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-                I enjoy reading fiction stories and philosophy. 
-                When I'm not reading for leisure, I spend my free time 
-                writing about random stuff. I also like listening to music,
-                especially jip hop, R&B and drill. My favorite artists are
-                Juice WRLD, Lil Tecca, JayDaYoungan, Yungeen Ace, SL, 
-                Meekz Manny and Fredo. 
+              I like to spend my free time watching movies, going to the gym,
+               and playing video games. I also like to read and learn new things. 
+               I'm really interested in sports like Cricket, Kabbadi, Football. 
+               I'm also interested in different technologies, and I'm currently taking an online course on the subject.
+
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -79,7 +78,7 @@ const AccordionComponent = () => {
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-               Definitely email. Contact me at enjeckc1e0@gmail.com.
+               Definitely email. Contact me at vishnukiran52@gmail.com.
               </Typography>
             </AccordionDetails>
           </Accordion>

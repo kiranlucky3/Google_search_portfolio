@@ -3,7 +3,7 @@ import distanceTwoLoc from "../images/distance-two-locations.jpg";
 import svgAdvantages from "../images/svg-advantages-and-disadvantages.jpg";
 import jsIcon from "../images/js-icon.png";
 export const BlogContent = [
-  {
+ /* {
     link: "https://enjeck.com/blog",
     img: svgAdvantages,
     icon: jsIcon,
@@ -38,5 +38,8 @@ export const BlogContent = [
     category: "JavaScript",
     date: "1 days ago"
   },
-  
+  */
+ //console.log("hi")
+ 
 ];
+

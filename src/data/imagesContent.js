@@ -19,7 +19,7 @@ export const ImagesContent = [
   {
     link: `${window.location.origin}`,
     img: gfolio,
-    name: "Gfolio (this website)",
+    name: "Google Search Potfolio (this website)",
   },
   {
     link: "https://enjeck.com/",

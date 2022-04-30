@@ -9,13 +9,48 @@ import cav from "../images/CryptographyVisualizer.png"
 import placeholder from "../images/bg1.png";
 export const ProjectsContent = [
   {
-    link: "https://github.com/enjeck/TutCode",
+    link: "http://kiran-register-login.s3-website-us-east-1.amazonaws.com",
     img: tutcode,
-    name: "TutCode - site to simultaneously  view tutorials and code",
-    excerpt: `A website where people can simultaneously code and watch/read
-    tutorials. It's a more convenient way to learn and practice
-    how to code (with HTML, CSS and JavaScript) on the same page`,
-    tools: "JavaScript · CSS"
+    name: "Deploying end to end website on AWS",
+    excerpt: `Created the Register-Login website which uses the backend as a NodeJs serverless API with a DynamoDB for user information storage. AWS LAMBDA is used to run the logic,it uses bcrypt to encrypt passwords and uses JSON WEB TOKEN to generate tokens. The frontend is built with React JS and is hosted on an AWS S3 Bucket. The API gateway intercepts all incoming requests and sends them through the API management system, which handles a variety of necessary functions which are authentication, routing, rate limiting, billing, analytics, monitoring, policies, alerts, and security.`,
+    tools: "JavaScript · HTML · CSS · ReactJs · NodeJs"
+  },
+  {
+    link: `${window.location.origin}`,
+    img: enjeck,
+    name: "Implementing CI/CD Pipeline and Deploying in Test Server using Docker",
+    excerpt: `Managing nodes with Jenkins master. Continuous Integration with Jenkins node and deploying in test server. Setting up infrastructure with Ansible, Puppet.`,
+    tools: "Maven · Jenkins · Puppet · Ansible · Docker · Git"
+  },
+  {
+    link: `${window.location.origin}`,
+    img: ll,
+    name: "Cryto Hound app in Web Application Development",
+    excerpt: `Developed an app which allows you to use one platform to track all the prices of  Cryptocurrencies and their market capacity.This app uses React JS, Material UI and Chart JS with full responsive fuctionality. And uses Context API to manage the state of our app and Coin Gecko API for backend.`,
+    tools: "JavaScript · HTML · CSS · ReactJs"
+  },
+  {
+    link: `${window.location.origin}`,
+    img: jpg2svg,
+    name: "A Simplified Client-Server solution for File Management",
+    excerpt: `Created a Python based client-server application where the server receives and handles requests from
+    the client.The server awaits requests done by the client and begins working on a request as soon as it is received.The concepts like AsyncIo, TCP/IP protocols and Exception handling were used.`,
+    tools: "Python"
+  },
+  {
+    link: `${window.location.origin}`,
+    img: placeholder,
+    name: "Brick Breaker Game",
+    excerpt: `Implemented Java code for playing the Brick Breaker game using different graphics. This game is developed using JFrame
+   and JPanel for drawing different graphics to  make this game work perfectly. The player uses the platform to keep the ball running. The goal is to break the bricks without missing the ball with your platform. The project makes use of Java swing, object-oriented programming system concepts.`,
+    tools: "Java · JFrame · JPanel"
+  },
+  {
+    link: `${window.location.origin}`,
+    img: gg,
+    name: "Ship of fools game",
+    excerpt: `{Implemented  Python code for playing the ship of fools game using different class relationships. The game stops only when a player reaches the winning score. This code shows complete understanding of object oriented programming.`,
+    tools: "Python"
   },
   {
     link: `${window.location.origin}`,
@@ -25,81 +60,4 @@ export const ProjectsContent = [
     HTML, CSSS and React`,
     tools: "React · CSS"
   },
-  {
-    link: "https://enjeck.com/",
-    img: enjeck,
-    name: "Personal Website",
-    excerpt: `My personal website, designed and developed from scratch. It
-    features a lot of hover effects, custom styling and a blog.`,
-    tools: "Gatsby · CSS"
-  },
-  {
-    link: "https://github.com/enjeck/libre-logos",
-    img: ll,
-    name: "Libre Logos",
-    excerpt: `A project to provide free logos to open source projects.
-    Website and logos designed and built by yours truly. 
-    The website is responsive and the individual logo pages are 
-    programmatically-generated.`,
-    tools: "Gatsby · CSS"
-  },
-  {
-    link: "https://github.com/enjeck/jpg2svg",
-    img: jpg2svg,
-    name: "jpg2svg",
-    excerpt: `An program to convert JPG/JPEG images into SVG. It comes with a web interface where 
-    you can upload an image, have it converted to SVG in the server, and you can 
-    download the converted SVG file if you want.`,
-    tools: "JavaScript · Python"
-  },
-  {
-    link: "https://github.com/enjeck/CrazyPassword",
-    img: placeholder,
-    name: "Crazy Password",
-    excerpt: `A password validation game with ridiculous requirements. 
-    Using Django for this project was overkill, but I really wanted to 
-     play around with regular expressions in Python`,
-    tools: "Python"
-  },
-  {
-    link: "https://github.com/enjeck/Geo-Guess",
-    img: gg,
-    name: "Geo Guess",
-    excerpt: `A distance guessing game. You are shown random cities around the world,
-    and you have to guess how far you are from the random city. The better your
-    guesss, the higher your score.`,
-    tools: "JavaScript · Python"
-  },
-  {
-    link: "https://github.com/enjeck/Blobby",
-    img: blobby,
-    name: "Blobby",
-    excerpt: `Generative blob SVG characters using Python. No characters are the same! 
-    Each Blobby character has a different body shape. The shape is always unique, 
-    and the colors and eyes are randomly applied to each shape.`,
-    tools: "JavaScript · Python"
-  },
-  {
-    link: "https://github.com/enjeck/Google-Sheet-to-website",
-    img: placeholder,
-    name: "Google Sheet to Website",
-    excerpt: `An experiment with building a website directly from Google Sheets. You edit a spreadsheet,
-    enter a link to the spreadsheet, and your changes are reflected on the website. `,
-    tools: "JavaScript · PHP"
-  },
-  {
-    link: "https://github.com/enjeck/CryptoAlgoVisualizer",
-    img: cav,
-    name: "Crypto Algorithm Visualizer",
-    excerpt: `Visualizations of various cryptography algorithms. 
-    Currently has Caesar's Cipher and Mono Alphabetic Cipher.`,
-    tools: "JavaScript · CSS"
-  },
-  {
-    link: "https://github.com/enjeck/btns",
-    img: placeholder,
-    name: "btns",
-    excerpt: `A collection of buttons with cool hover effects.`,
-    tools: "JavaScript · CSS"
-  }
 ];
