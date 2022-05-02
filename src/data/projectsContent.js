@@ -28,7 +28,7 @@ export const ProjectsContent = [
     tools: "Maven · Jenkins · Puppet · Ansible · Docker · Git"
   },
   {
-    link: "https://charming-kashata-58eae9.netlify.app",
+    link: "https://cryptohunter-kiran.netlify.app",
     img: Crypto_Hunter,
     name: "Cryto Hunter app in Web Application Development",
     excerpt: `Developed an app which allows you to use one platform to track all the prices of  Cryptocurrencies and their market capacity.This app uses React JS, Material UI and Chart JS with full responsive fuctionality. And uses Context API to manage the state of our app and Coin Gecko API for backend.`,
