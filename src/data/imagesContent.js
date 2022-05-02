@@ -31,7 +31,7 @@ export const ImagesContent = [
     name: "Implementing CI/CD Pipeline and Deploying in Test Server using Docker"
   },
   {
-    link: "https://charming-kashata-58eae9.netlify.app",
+    link: "https://cryptohunter-kiran.netlify.app",
     img: Crypto_Hunter,
     name: "Crypto Hunter app",
   },
